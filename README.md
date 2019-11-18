@@ -6,7 +6,7 @@ This repository contains a bunch of unfinished or buggy functions in the src fol
 
 1. First, fork this repository, then clone it to your computer. You'll need to install a couple of things before you can start running and fixing the tests.
 2. Before you can run the tests, you need to have Node and NPM installed. If you already have them installed, you can skip this step. You can install node using the installer from [nodejs.org](https://nodejs.org/en/), or (*mac only*) by first installing [homebrew](https://brew.sh) and running `brew install node`.
-3. Now you have node, you can install the dependencies this project needs to run. Make sure you have `cd`'d into this project, and then run `npm install` to install all dependencies listed in package.json.
+3. Now you have node, you can install the dependencies this project needs to run. Make sure you have `cd`'d into this project, and then run npm install to install all dependencies listed in package.json.
 4. Finally, you're ready to run the tests! Run `npm run test` to run the full test suite.
 
 ## Finding and fixing a test
