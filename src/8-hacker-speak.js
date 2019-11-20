@@ -4,8 +4,6 @@ export const hackerSpeak = (words) => {
   // var allAs = /A/gi;
   // var allIs = /I/gi;
 
-  return words.replace(/A/g,'4').replace(/I/g, '1').replace(/S/g, '5').replace(/E/g, '3').replace(/O/g, '0').replace(/a/g,'4').replace(/i/g, '1').replace(/s/g, '5').replace(/o/g, '0').replace(/e/g, '3')
-
-
+  return words.replace(/A/gi,'4').replace(/I/gi, '1').replace(/S/gi, '5').replace(/E/gi, '3').replace(/O/gi, '0')
 }
 
