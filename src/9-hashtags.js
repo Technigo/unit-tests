@@ -1,7 +1,6 @@
 export const hashtags = (text) => {
   const regex = /#\S+/g
-  const texten = text.match(regex)
-  return texten
+  return text.match(regex)
 }
 //regex that first found only the #
 //searched and found match() method - retrieves the result of matching a string against a regular expression
