@@ -3,7 +3,7 @@ import { firstLast } from './2-first-last'
 describe('2-first-last', () => {
   it('should return the first and last items from an array with two items', () => {
     expect(firstLast(['a', 'b'])).toEqual('First: a, Last: b')
-  })
+  })//correct
 
   it('should return the first and last items from an array with many items', () => {
     expect(firstLast(['a', 'b', 'c', 'd', 'e'])).toEqual('First: a, Last: e')
