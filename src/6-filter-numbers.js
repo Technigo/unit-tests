@@ -1,3 +1,5 @@
 export const filterNumbers = (array, largerThan) => {
-  return array
+  
+  const filterNumbers = array.filter(item => (item <= largerThan))
+  return filterNumbers
 }
