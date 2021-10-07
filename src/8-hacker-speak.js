@@ -7,5 +7,5 @@ export const hackerSpeak = (words) => {
 }
 
   /* task was to replace certain letters with words:
-  here we used the .replace() function in a chanined order
+  here i used the .replace() function in a chanined order
   to replace all letters, with the '//g' to target them globally */
