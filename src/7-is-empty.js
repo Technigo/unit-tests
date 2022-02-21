@@ -3,7 +3,9 @@ export const isEmpty = (stringArrayOrObject) => {
 
   if (type === 'string') {
     return stringArrayOrObject === ''
+  } else if (type === 'object') {
+    return Object.keys(stringArrayOrObject).length === 0
+  } else {
+    return false
   }
-
-  return false
 }

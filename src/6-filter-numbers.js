@@ -1,3 +1,8 @@
+import { loadPartialConfig } from "@babel/core"
+
 export const filterNumbers = (array, largerThan) => {
-  return array
+  let newArray = array.filter(item => item < largerThan + 1)
+  return newArray
 }
+
+

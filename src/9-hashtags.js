@@ -1,3 +1,4 @@
 export const hashtags = (text) => {
-  return text
+  const splitText = text.split(" ");
+  return splitText.filter((word) => word.charAt(0) === "#");
 }
