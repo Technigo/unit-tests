@@ -1,3 +1,6 @@
 export const multiply = (a, b) => {
-  a * b
+ return a * b
 }
+
+
+// Added return = passed
