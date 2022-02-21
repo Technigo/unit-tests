@@ -1,6 +1,4 @@
-const items = ["Apple", "Banana", "Orange", "Pear", "Lemon"];
-
 export const findIndex = (array, value) => {
-  alert(items[0]);
-  return;
+  const index = array.findIndex((item) => item === value);
+  return index;
 };
