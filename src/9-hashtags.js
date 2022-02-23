@@ -1,4 +1,3 @@
 export const hashtags = (text) => {
-  const splitText = text.split(" ");
-  return splitText.filter((word) => word.charAt(0) === "#");
+  return text.split(' ').filter(word => word.startsWith('#')) 
 }
