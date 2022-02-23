@@ -5,7 +5,7 @@ describe('7-is-empty', () => {
     expect(isEmpty('')).toEqual(true)
   })
 
-  it('should return false for a string with a vaue', () => {
+  it('should return false for a string with a value', () => {
     expect(isEmpty('hello')).toEqual(false)
   })
 
