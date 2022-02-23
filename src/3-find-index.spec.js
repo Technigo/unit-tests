@@ -12,10 +12,10 @@ describe('3-find-index', () => {
   })
 
   it('should return the correct index of an item in the middle', () => {
-    expect(findIndex(items, 'Orange')).toEqual(2)
-  })
+     expect(findIndex(items, 'Orange')).toEqual(2)
+   })
 
-  it('should return -1 if the item is not in the array', () => {
-    expect(findIndex(items, 'Pineapple')).toEqual(-1)
-  })
+   it('should return -1 if the item is not in the array', () => {
+     expect(findIndex(items, 'Pineapple')).toEqual(-1)
+   })
 })
