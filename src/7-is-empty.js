@@ -1,3 +1,4 @@
+// I wasn't able to solve this one
 export const isEmpty = (stringArrayOrObject) => {
   const type = typeof stringArrayOrObject
 
@@ -7,14 +8,3 @@ export const isEmpty = (stringArrayOrObject) => {
   
   return false
 }
-
-
-// export const isEmpty = (stringArrayOrObject) => {
-//   const type = typeof stringArrayOrObject
-
-//   if (type === 'string') {
-//     return stringArrayOrObject === ''
-//   }
-
-//   return false
-// }
