@@ -7,5 +7,3 @@ export const hashtags = (text) => {
 //   const result = list.filter((word) => word.substring(0, 1) === "#");
 //   return result;
 // };
-
-//["#world", "#string", "#hashtags"]
